@@ -84,11 +84,11 @@ body {
   }
 }
 .container.grow {
-  animation: grow 3s ease-out forwards;
+  animation: grow 3s linear forwards;
 }
 
 .container.shrink {
-  animation: shrink 3s ease-in forwards;
+  animation: shrink 3s linear forwards;
 }
 
 @keyframes grow {
